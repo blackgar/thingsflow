@@ -108,6 +108,7 @@ http://wanted610.s3-website.ap-northeast-2.amazonaws.com/
   <details>
     <summary>1. Issue List </summary>
 
+
     1. 이슈 목록 API 활용
       - Github Rest API를 활용해서 API 요청
       - 요청한 API는 ContextAPI를 활용해 state관리 및 reducer를 활용한 dispatch로 값 변환. 최초 state 값에 isLoading과 isError이라는 값을 추가해 로딩 중과 에러 발생 여부를 하나의 state로 관리하도록 지정
@@ -129,6 +130,8 @@ http://wanted610.s3-website.ap-northeast-2.amazonaws.com/
       - 데이터 API 요청간 로딩 표시를 spinner로 표현(components/spinner.tsx)
 
   </details>
+  
+  ![띵스플로우 이슈 리스트 및 광고](https://user-images.githubusercontent.com/79856086/190292543-4b70a35b-e7bf-4064-b257-b5ea4485b8da.PNG)
 
   <details>
     <summary>2. Issue Detail </summary>
@@ -141,6 +144,8 @@ http://wanted610.s3-website.ap-northeast-2.amazonaws.com/
       - 본문 내용의 경우 Markdown 형태라 react-Markdown 라이브러리와 gitgub-markdown-css 라이브러리를 활용해서 UI 개선
 
   </details>
+  
+  ![띵스플로우 디테일](https://user-images.githubusercontent.com/79856086/190292592-39c184cf-9824-4140-af52-c8eac9ec22b5.PNG)
 
 <br/>
 
@@ -154,7 +159,10 @@ http://wanted610.s3-website.ap-northeast-2.amazonaws.com/
       - Select로 state, sort를 선택하고 page 값들은 입력할 수 있도록 구현
       - 검색 시 랜더링을 새로하여 원하는 데이터들이 나올 수 있도록 하고 Infinite scroll도 정상 작동하도록 구현
 
+
   </details>
+  
+  ![이슈검색기능](https://user-images.githubusercontent.com/79856086/190292639-b9f9697e-e7a5-4be1-867a-a43a8c9424e0.PNG)
 
 <br>
 
